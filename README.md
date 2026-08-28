@@ -25,7 +25,38 @@ Coverage (5 sections):
 
 ## Install
 
-### WorkBuddy (recommended)
+### Claude Code
+
+```bash
+mkdir -p ~/.claude/skills
+ln -s "$(pwd)/alibaba-java-coding-guidelines-en" ~/.claude/skills/alibaba-java-coding-guidelines-en
+```
+
+### Cursor
+
+```bash
+# Project-level (recommended): place it in the project root
+mkdir -p .cursor/skills
+ln -s "$(pwd)/alibaba-java-coding-guidelines-en" .cursor/skills/alibaba-java-coding-guidelines-en
+
+# Or user-level (global):
+mkdir -p ~/.cursor/skills
+ln -s "$(pwd)/alibaba-java-coding-guidelines-en" ~/.cursor/skills/alibaba-java-coding-guidelines-en
+```
+
+### OpenCode
+
+```bash
+# Project-level:
+mkdir -p .opencode/skills
+ln -s "$(pwd)/alibaba-java-coding-guidelines-en" .opencode/skills/alibaba-java-coding-guidelines-en
+
+# Or user-level (global):
+mkdir -p ~/.config/opencode/skills
+ln -s "$(pwd)/alibaba-java-coding-guidelines-en" ~/.config/opencode/skills/alibaba-java-coding-guidelines-en
+```
+
+### WorkBuddy (CodeBuddy)
 
 ```bash
 git clone https://github.com/Castlebin/alibaba-java-coding-guidelines-en.git
@@ -34,11 +65,28 @@ ln -s "$(pwd)/alibaba-java-coding-guidelines-en" ~/.workbuddy/skills/alibaba-jav
 
 Or simply copy the directory into `~/.workbuddy/skills/`. The skill then triggers automatically whenever you write or review Java code in English.
 
-### Claude Code / Claude Agent Skills
+### Trae (TraeWork)
 
 ```bash
-mkdir -p ~/.claude/skills
-ln -s "$(pwd)/alibaba-java-coding-guidelines-en" ~/.claude/skills/alibaba-java-coding-guidelines-en
+# User-level (global):
+mkdir -p ~/.trae/skills
+ln -s "$(pwd)/alibaba-java-coding-guidelines-en" ~/.trae/skills/alibaba-java-coding-guidelines-en
+
+# Or project-level:
+mkdir -p .trae/skills
+ln -s "$(pwd)/alibaba-java-coding-guidelines-en" .trae/skills/alibaba-java-coding-guidelines-en
+```
+
+### Qoder (QoderWork)
+
+```bash
+# User-level (global):
+mkdir -p ~/.qoder/skills
+ln -s "$(pwd)/alibaba-java-coding-guidelines-en" ~/.qoder/skills/alibaba-java-coding-guidelines-en
+
+# Or project-level:
+mkdir -p .qoder/skills
+ln -s "$(pwd)/alibaba-java-coding-guidelines-en" .qoder/skills/alibaba-java-coding-guidelines-en
 ```
 
 ### Generic (any agent)
