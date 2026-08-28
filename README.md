@@ -78,11 +78,11 @@ This skill has been submitted to the following community skill collections (PRs)
 
 | Collection | PR |
 | --- | --- |
-| BehiSecc/awesome-claude-skills | TBD |
-| travisvn/awesome-claude-skills | TBD |
-| spencerpauly/awesome-cursor-skills | TBD |
-| TheArchitectit/awesome-opencode-skills | TBD |
-| ComposioHQ/awesome-claude-skills | TBD |
+| BehiSecc/awesome-claude-skills | [#644](https://github.com/BehiSecc/awesome-claude-skills/pull/644) |
+| travisvn/awesome-claude-skills | [#1182](https://github.com/travisvn/awesome-claude-skills/pull/1182) |
+| spencerpauly/awesome-cursor-skills | [#58](https://github.com/spencerpauly/awesome-cursor-skills/pull/58) |
+| TheArchitectit/awesome-opencode-skills | [#7](https://github.com/TheArchitectit/awesome-opencode-skills/pull/7) |
+| ComposioHQ/awesome-claude-skills | [#1757](https://github.com/ComposioHQ/awesome-claude-skills/pull/1757) |
 
 ## License
 
