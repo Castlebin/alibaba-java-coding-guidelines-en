@@ -32,6 +32,18 @@ mkdir -p ~/.claude/skills
 ln -s "$(pwd)/alibaba-java-coding-guidelines-en" ~/.claude/skills/alibaba-java-coding-guidelines-en
 ```
 
+### Codex (OpenAI Codex CLI)
+
+```bash
+# User-level (global):
+mkdir -p ~/.codex/skills
+ln -s "$(pwd)/alibaba-java-coding-guidelines-en" ~/.codex/skills/alibaba-java-coding-guidelines-en
+
+# Or project-level:
+mkdir -p .codex/skills
+ln -s "$(pwd)/alibaba-java-coding-guidelines-en" .codex/skills/alibaba-java-coding-guidelines-en
+```
+
 ### Cursor
 
 ```bash
